@@ -24,8 +24,8 @@ export default function Navbar() {
     },
   ];
 
-  function closeSidebar(){
-    setShowSidebar(false)
+  function closeSidebar() {
+    setShowSidebar(false);
   }
 
   return (
@@ -53,8 +53,7 @@ export default function Navbar() {
           <div className="bar"></div>
         </div>
       </div>
-      { showSidebar && <Sidebar close={closeSidebar} links={links} /> }
-      <Sidebar links={links} />
+      {showSidebar && <Sidebar close={closeSidebar} links={links} />}
     </>
   );
 }
