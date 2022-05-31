@@ -8,7 +8,7 @@ export default function Sidebar({ links, close }) {
       {links.map((link) => (
         <Link
           to={link.path}
-          className={location.pathname == link.path ? "sidebar-link active" : "sidebar-link"}
+          className={location.pathname === link.path ? "sidebar-link active" : "sidebar-link"}
           key={link.name}
         >
           <FontAwesomeIcon icon={link.icon} />

@@ -7,7 +7,7 @@ export default function ChefCard({chef}) {
             <img src={chef.img} alt="" />
             <div className="chef-card-info">
                 <h3 className="chef-card-name">{chef.name}</h3>
-                <p className="chef-recipe-count">Recipies: <b>{chef.recipesCount}</b></p>
+                <p className="chef-recipe-count">Recipes: <b>{chef.recipesCount}</b></p>
                 <p className="chef-cuisine">Cuisine: <b>{chef.cuisine}</b></p>
                 <p className="chef-icons">
                     <FontAwesomeIcon icon={faFacebook} />
